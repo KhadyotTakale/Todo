@@ -1,0 +1,38 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.todolist {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.input-box {
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 400px;
+  height: 40px;
+  border-color: slateblue;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.button {
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: slateblue;
+  color: white;
+  width: 100px;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: rgb(69, 59, 138);
+}
+
+.tasks {
+  margin-top: 400px;
+}

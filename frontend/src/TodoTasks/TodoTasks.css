@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-right: 120px;
+}
+
+.ulitems {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todoItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid slateblue;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.todoItem input {
+  border: 1px solid slateblue;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  flex: 1;
+  height: 30px;
+}
+
+.todoItem button {
+  border: none;
+  border-radius: 5px;
+  background-color: slateblue;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.edit-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.bin-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  vertical-align: middle;
+}
